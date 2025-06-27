@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Inter', sans-serif; /* Using Inter as a modern sans-serif font, ensure it's imported or available */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* The gradient background is applied in App.jsx's main div to cover the full viewport height consistently */
+}
+
+/* Add any other global base styles here if needed */
+/* For example, to ensure links have a consistent theme color: */
+/*
+a {
+  @apply text-green-600 hover:text-green-500;
+}
+*/
