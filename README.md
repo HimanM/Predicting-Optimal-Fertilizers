@@ -120,17 +120,24 @@ The ensemble model's performance is evaluated, and confusion matrices help visua
 
 ## Technologies Used
 
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="20" alt="Python logo" /> **Programming Language:** Python
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="20" alt="Flask logo" /> **Backend Framework:** Flask (for the prediction API)
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" height="20" alt="Jupyter logo" /> **Notebook Environment:** Jupyter Notebook (for model development and experimentation)
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg" height="20" alt="Pandas logo" /> **Data Handling:** Pandas
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original-wordmark.svg" height="20" alt="NumPy logo" /> **Numerical Computation:** NumPy
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" height="20" alt="Scikit-learn logo" /> **Machine Learning Utilities:** Scikit-learn (for preprocessing, label encoding)
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original-wordmark.svg" height="20" alt="Matplotlib logo" /> **Plotting:** Matplotlib
-*   <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" height="20" alt="Seaborn logo" /> **Plotting:** Seaborn
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="20" alt="React logo" /> **Frontend Library:** React (for the user interface)
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" height="20" alt="Tailwind CSS logo" /> **Styling:** Tailwind CSS (for frontend styling)
-*   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg" height="20" alt="Vite logo" /> **Build Tool:** Vite (for frontend development and bundling)
+<div align="center">
+
+### Backend & Machine Learning
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-0C7CD5?style=for-the-badge&logo=seaborn&logoColor=white)
+
+### Frontend & Development
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+
+</div>
 
 ## Folder Structure
 
