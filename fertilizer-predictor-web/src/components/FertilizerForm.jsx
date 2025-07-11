@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FormField from './FormField';
-import axios from 'axios'; // Make sure to install axios: npm install axios
+import axios from 'axios';
 
 const soilTypeOptions = [
   { value: 'Clayey', label: 'Clayey' },

@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from Predictor import FertilizerRecommender  # Adjust import path
+from Predictor import FertilizerRecommender
 
 app = Flask(__name__)
 
