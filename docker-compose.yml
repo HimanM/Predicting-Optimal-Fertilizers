@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: fertilizer_backend
+    environment:
+      - FLASK_PORT=8000
+      - FLASK_HOST=0.0.0.0
+      - FLASK_DEBUG=0
+  # backend is internal-only; do not publish host port unless you need direct host access
+    volumes:
+      - ./:/app:cached
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./fertilizer-predictor-web
+      dockerfile: Dockerfile.frontend
+    container_name: fertilizer_frontend
+    environment:
+      - BACKEND_URL=http://backend:8000
+    ports:
+      - "49222:80" # expose uncommon external port mapped to container's nginx (80)
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+# Notes:
+# - Frontend container serves built static files via nginx on container port 80.
+# - Backend runs gunicorn on port 8000.

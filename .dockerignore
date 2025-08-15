@@ -1,0 +1,25 @@
+# Python ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env/
+
+# Notebook and heavy folders to ignore as requested
+notebook/
+kaggle_submission/
+*.old
+.old
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile*
+
+# Misc
+.idea/
+.vscode/

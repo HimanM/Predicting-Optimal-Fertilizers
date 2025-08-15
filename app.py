@@ -59,4 +59,16 @@ def predict():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    import os
+
+    # Read runtime configuration from environment variables so this app
+    # can run safely under a production WSGI server (gunicorn) or standalone.
+    debug = os.environ.get("FLASK_DEBUG", "0") in ("1", "true", "True")
+    host = os.environ.get("FLASK_HOST", "0.0.0.0")
+    port = int(os.environ.get("FLASK_PORT", 8000))
+
+    # Default to production environment unless explicitly enabled for debug
+    if not debug:
+        app.config.update(DEBUG=False, ENV="production")
+
+    app.run(host=host, port=port, debug=debug)
