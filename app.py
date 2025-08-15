@@ -1,5 +1,7 @@
 from flask import Flask, request, jsonify
 from Predictor import FertilizerRecommender
+import os
+
 
 app = Flask(__name__)
 
@@ -59,7 +61,6 @@ def predict():
         return jsonify({"error": str(e)}), 500
 
 if __name__ == "__main__":
-    import os
 
     # Read runtime configuration from environment variables so this app
     # can run safely under a production WSGI server (gunicorn) or standalone.
@@ -72,3 +73,6 @@ if __name__ == "__main__":
         app.config.update(DEBUG=False, ENV="production")
 
     app.run(host=host, port=port, debug=debug)
+
+
+# python .\app.py
