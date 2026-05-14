@@ -1,3 +1,9 @@
+<!-- BANNER_START -->
+<p align="center">
+  <img src="./.banner/banner.svg" width="100%" alt="Project Banner">
+</p>
+<!-- BANNER_END -->
+
 # FertiliZen — Fertilizer Recommendation Web App
 
 FertiliZen is a web application that recommends optimal fertilizers based on soil and environmental parameters. This project was developed to enhance skills in both machine learning model deployment and full-stack web development (React frontend, Flask backend).
